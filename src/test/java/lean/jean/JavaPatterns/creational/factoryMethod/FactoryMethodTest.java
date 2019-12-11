@@ -8,6 +8,9 @@ public class FactoryMethodTest {
 
     @Test
     public void create() {
-        EmailSender emailSender = (EmailSender) SenderFactory.create(1);
+        Sender senderSms = SenderFactory.create(SenderFactory.SMS);
+        Sender senderEmail = SenderFactory.create(SenderFactory.EMAIL);
+        assertTrue(senderSms instanceof SmsSender);
+        assertTrue(senderEmail instanceof EmailSender);
     }
 }

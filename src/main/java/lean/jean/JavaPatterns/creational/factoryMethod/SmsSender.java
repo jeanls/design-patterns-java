@@ -5,7 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class SmsSender implements Sender {
     @Override
-    public void send(String message) {
+    public boolean send(String message) {
         log.info(message);
+        return true;
     }
 }
