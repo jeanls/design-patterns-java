@@ -14,6 +14,11 @@ public class BBBillet implements Billet {
     private double value;
     private LocalDate expDate;
     private int customNumber;
+    private String bbNumber;
+
+    public String getBbNumber() {
+        return bbNumber;
+    }
 
     @Override
     public String getEmitter() {

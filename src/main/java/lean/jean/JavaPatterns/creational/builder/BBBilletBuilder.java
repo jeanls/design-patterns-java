@@ -43,6 +43,6 @@ public class BBBilletBuilder implements BilletBuilder {
 
     @Override
     public Billet build() {
-        return new BBBillet(emitter, receptor, value, expDate, customNumber);
+        return new BBBillet(emitter, receptor, value, expDate, customNumber, "01000");
     }
 }
