@@ -13,6 +13,6 @@ public class AbstractFactoryTest {
     public void test() {
         CommunicatorFactory communicatorFactory = new VisaCommunicatorFactory();
         Emitter visaEmitter = communicatorFactory.createEmitter();
-        assertTrue(visaEmitter.send());
+        assertTrue(visaEmitter.send(""));
     }
 }

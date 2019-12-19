@@ -4,7 +4,7 @@ import lean.jean.JavaPatterns.creational.abstractFactory.interfaces.Emitter;
 
 public class VisaEmitter implements Emitter {
     @Override
-    public boolean send() {
+    public boolean send(String message) {
         return true;
     }
 }
