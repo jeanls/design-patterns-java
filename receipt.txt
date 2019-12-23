@@ -1,0 +1,1 @@
+Receipt(emitter=Jean, receptor=Java, value=10.0, fileCreator=lean.jean.JavaPatterns.structural.bridge.FileGeneratorTxt@7a79be86)
